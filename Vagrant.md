@@ -15,7 +15,7 @@ http://downloads.vagrantup.com/からv1.3.5を取得
 sudo dpkg -i vagrant_1.3.5_x86_64.deb  
 vagrant -v でバージョン確認
 #### 2.Boxファイル追加
-
+$ vagrant box add precise32 http://files.vagrantup.com/precise32.box  
 #### 3.Vagrantfile生成
 vagrant init なんとか
 ls
